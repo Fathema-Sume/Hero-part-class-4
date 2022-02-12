@@ -1,0 +1,161 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+header{
+	background: rgb(226,122,184);
+background: linear-gradient(90deg, rgba(226,122,184,1) 0%, rgba(211,175,230,1) 50%, rgba(198,136,221,1) 100%);
+	border-radius: 5px;
+
+}
+
+
+.container{
+	width: 1000px;
+	margin: auto;
+}
+
+.flex{
+	display: flex;
+}
+
+.logo{
+
+	flex-basis: 30%;
+}
+
+nav{
+	flex-basis: 70%;
+}
+
+nav ul{
+	justify-content: flex-end;
+	display: flex;
+	list-style: none;
+	color: white;
+}
+
+header nav a{
+	color: white;
+	text-decoration: none;
+	font-size: 22px;
+	padding: 20px;
+	display: block;
+}
+
+header .logo a{
+	color: #ab0a6f;
+	text-decoration: none;
+	font-size: 18px;
+}
+
+.banner-section{
+	background: rgb(230,224,241);
+background: linear-gradient(90deg, rgba(230,224,241,1) 0%, rgba(251,249,252,1) 45%, rgba(250,230,230,1) 100%);
+padding: 40px
+}
+
+.banner-section img{
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+    margin: 0;
+}
+
+.feature-section{
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+.feature{
+	padding: 20px;
+	text-align: center;
+}
+
+.feature h2{
+	font-size: 50px;
+	margin: 0;
+}
+
+.feature p{
+	font-size: 20px;
+	margin: 0;
+	padding-top: 20px;
+}
+
+.Aboutme-section{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.Aboutme{
+	flex-basis: 60%;
+	padding: 40px;
+}
+.Aboutme h2{
+	margin: 0;
+	font-size: 55px;
+}
+.Aboutme span{
+	color: #cb1488;
+	text-transform: uppercase;
+}
+.Aboutme p{
+	font-size: 25px;
+	font-weight: 540;
+	margin: 0;
+}
+.mypicture{
+	flex-basis: 40%;
+	padding : 50px;
+}
+.mypicture img{
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 20px 14px 20px 4px #fda2dc;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
